@@ -4,9 +4,6 @@ import Home from './pages/Home'
 import Courses from './pages/Courses'
 import CourseDetail from './pages/CourseDetail'
 
-// Placeholder component (we'll create this next)
-const Courses = () => <div>Courses Page</div>
-
 function App() {
   return (
     <Router basename="/CrashCourseAmanda">
