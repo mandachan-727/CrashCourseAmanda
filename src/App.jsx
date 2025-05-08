@@ -9,7 +9,7 @@ const Courses = () => <div>Courses Page</div>
 
 function App() {
   return (
-    <Router>
+    <Router basename="/CrashCourseAmanda">
       <Routes>
         <Route path="/" element={<RootLayout />}>
           <Route index element={<Home />} />
