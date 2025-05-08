@@ -8,16 +8,11 @@ export default defineConfig({
   base: '/CrashCourseAmanda/',
   build: {
     outDir: 'dist',
-    assetsDir: '',
+    assetsDir: 'assets',
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
       },
-      output: {
-        entryFileNames: '[name].js',
-        chunkFileNames: '[name].js',
-        assetFileNames: '[name].[ext]'
-      }
     },
   },
   resolve: {
