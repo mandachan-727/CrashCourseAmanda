@@ -13,7 +13,9 @@ export default defineConfig({
         main: './index.html',
       },
       output: {
-        manualChunks: undefined,
+        entryFileNames: 'assets/[name].js',
+        chunkFileNames: 'assets/[name].js',
+        assetFileNames: 'assets/[name].[ext]'
       },
     },
   },
