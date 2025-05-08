@@ -6,7 +6,7 @@ import CourseDetail from './pages/CourseDetail'
 
 function App() {
   return (
-    <Router basename="/CrashCourseAmanda">
+    <Router>
       <Routes>
         <Route path="/" element={<RootLayout />}>
           <Route index element={<Home />} />

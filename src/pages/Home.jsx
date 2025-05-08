@@ -7,21 +7,21 @@ const courses = [
     title: 'Learning Science in Action',
     description: 'Explore my research approach and projects in educational technology and learning sciences.',
     color: 'bg-blue-500',
-    href: '/CrashCourseAmanda/courses/learning-science'
+    href: '/courses/learning-science'
   },
   {
     id: 'product-design',
     title: 'Designing Learning Products',
     description: 'Discover my product design work in educational technology and learning experiences.',
     color: 'bg-purple-500',
-    href: '/CrashCourseAmanda/courses/product-design'
+    href: '/courses/product-design'
   },
   {
     id: 'life',
     title: 'Living My Life',
     description: 'A peek into my creative pursuits, hobbies, and personal projects.',
     color: 'bg-pink-500',
-    href: '/CrashCourseAmanda/courses/life'
+    href: '/courses/life'
   }
 ]
 
