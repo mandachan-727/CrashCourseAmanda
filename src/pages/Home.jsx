@@ -6,21 +6,21 @@ const courses = [
     id: 'learning-science',
     title: 'Learning Science in Action',
     description: 'Explore my research approach and projects in educational technology and learning sciences.',
-    color: 'bg-blue-500',
+    color: 'from-blue-500 to-blue-600',
     href: '/courses/learning-science'
   },
   {
     id: 'product-design',
     title: 'Designing Learning Products',
     description: 'Discover my product design work in educational technology and learning experiences.',
-    color: 'bg-purple-500',
+    color: 'from-purple-500 to-purple-600',
     href: '/courses/product-design'
   },
   {
     id: 'life',
     title: 'Living My Life',
     description: 'A peek into my creative pursuits, hobbies, and personal projects.',
-    color: 'bg-pink-500',
+    color: 'from-pink-500 to-pink-600',
     href: '/courses/life'
   }
 ]
@@ -61,15 +61,15 @@ export default function Home() {
               to={course.href}
               className="block group"
             >
-              <div className="relative aspect-[4/3] rounded-xl overflow-hidden mb-4">
-                <div className={`absolute inset-0 ${course.color} opacity-90 group-hover:opacity-100 transition-opacity`} />
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <h2 className="text-white text-2xl font-display font-bold px-6 text-center">
+              <div className="relative aspect-[4/3] rounded-xl overflow-hidden mb-4 shadow-lg">
+                <div className={`absolute inset-0 bg-gradient-to-br ${course.color} opacity-90 group-hover:opacity-100 transition-opacity duration-300`} />
+                <div className="absolute inset-0 flex items-center justify-center p-6">
+                  <h2 className="text-white text-2xl font-display font-bold text-center">
                     {course.title}
                   </h2>
                 </div>
               </div>
-              <p className="text-secondary-600 group-hover:text-secondary-900 transition-colors">
+              <p className="text-secondary-600 group-hover:text-secondary-900 transition-colors duration-300">
                 {course.description}
               </p>
             </Link>
